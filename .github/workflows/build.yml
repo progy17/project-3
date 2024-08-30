@@ -26,7 +26,6 @@ jobs:
 
       - name: Build with Buildozer
         run: buildozer android debug
-        working-directory: ./https://github.com/progy17/project-3
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
